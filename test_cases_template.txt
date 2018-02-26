@@ -1,0 +1,32 @@
+TEST CASES
+
+Index
+=====
+[] No remaining todos in file, except production text
+[] Nothing breaks when the page is resized horizontally or vertically
+[] Page looks very similar to homework assignment
+[] Links are live to other pages and to Github, LInked In,and Stack Overflow
+[] HTML passes validation
+
+Contact
+=======
+[] No remaining todos in file
+[] Contact sends email with info entered in form
+[] Nothing breaks when the page is resized horizontally or vertically
+[] Footer is sticky on Contact page
+[] Page looks very similar to homework assignment
+[] Links are live to other pages and to Github, LInked In,and Stack Overflow
+[] HTML passes validation
+
+Portfolio
+=========
+[] No remaining todos in file
+[] Nothing breaks when the page is resized horizontally or vertically
+[] Page looks very similar to homework assignment
+[] Links are live to other pages and to Github, LInked In,and Stack Overflow
+[] HTML passes validation
+
+Styles
+======
+[] No remaining todos in file
+[] CSS passes validation
