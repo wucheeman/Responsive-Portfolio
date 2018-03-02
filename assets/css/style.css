@@ -1,0 +1,226 @@
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+    color: gray;
+    padding:  10px;
+    text-decoration-line: none;
+}
+
+body {
+  background-color: black;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  height: 100%;
+}
+
+footer {
+  clear: both;
+  background: #666666;
+  color: white;
+  text-align: center;
+  height: 15%;
+  line-height: 50px;
+  font-size: 12px;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #4aaaa5;
+}
+
+form {
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 22px;
+}
+
+h1 {
+  background: #4aaaa5;
+  margin-top: 0%;
+  text-align: center;
+  width: 250px;
+  padding: 20px;
+  color: white;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 28px;
+  float: left;
+}
+
+h2 {
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  padding: 20px;
+  font-size: 24px;
+}
+
+h3 {
+  background: #4aaaa5;
+  color: white;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+header {
+  background: #ffffff;
+  height: 15%;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: #cccccc;
+}
+
+hr {
+  /* TODO: check width */
+  background-color: rgba(211, 211, 211, 0.87);
+  border-color: rgba(211, 211, 211, 0.87);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* TODO: delete when done
+html {
+  height: 100%;
+} */
+
+input[type=submit] {
+  /* TODO: make button larger and lozenged shaped */
+  background-color: #4aaaa5;
+  color: white;
+  padding:5px 25px; 
+  font-size: 18px;
+  border:0 none;
+}
+
+p {
+  padding: 5px;
+  margin: 10px;
+}
+
+section {
+  clear: both;
+  width: 960px;
+  background-color: lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:hover {
+  color: red;
+}
+
+.caption {
+  text-align: center;
+  position: absolute;
+  width: 250px;
+  margin-left: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  top: 140px;
+}
+
+.connect_header {
+  text-align: center;
+  font-size: 18px;
+}
+
+.grid {
+  display: inline-block;
+  width: 250px;
+  height: 100px;
+  margin: 1em;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.maincontent {
+  /* TODO: fix width */
+  width: 67%;
+  background: #ffffff;
+  border-color: #dddddd;
+  line-height: 1.8em;
+  /* Positioning */
+  float: left;
+  margin-bottom: 5%;
+}
+
+/* TODO: Delete when work is complete
+.main_background {
+  background-image: url("../images/concrete-wall.jpg");
+  background-size: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+} */
+
+.nav {
+  text-align: right;
+  padding: 25px;
+}
+
+.page_header_content {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio_pic {
+  width: 200px;
+  display: block;
+}
+
+.push {
+  height: 50px;
+}
+.real_me {
+  width: 200px;
+  height: 180px;
+  float: left;
+  /* margin-right: 20px; */
+  margin: 10px;
+}
+
+.sidebar {
+  background: #ffffff;
+  width: 27%px;
+  float: right;
+  border-color: #dddddd;
+  /* padding: 25px; */
+}
+
+.wrapper {
+  /* Box-model */
+  width: 1024px;
+  background-color: lightgray;
+  /* Positioning */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  /* TODO: may need to fix these */
+  min-height: 100%;
+
+  /* padding-left: 5%;
+  padding-right: 5%; */
+}
+
+/* TODO: add media query for screen < 640px */
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+.maincontent,
+.sidebar {
+  width: 100%;
+}
+
+  .sidebar {
+    margin-top: 40px;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+}
