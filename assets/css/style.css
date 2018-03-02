@@ -17,6 +17,7 @@ body {
 
 footer {
   clear: both;
+  /* width: 960px; */
   background: #666666;
   color: white;
   text-align: center;
@@ -61,6 +62,7 @@ h3 {
 
 header {
   background: #ffffff;
+  /*  TODO - Add width? in px? */
   height: 15%;
   border-bottom-width: 4px;
   border-bottom-style: solid;
@@ -90,10 +92,10 @@ input[type=submit] {
   border:0 none;
 }
 
-p {
+/* p {
   padding: 5px;
   margin: 10px;
-}
+} */
 
 section {
   clear: both;
@@ -134,7 +136,7 @@ a:hover {
 
 .maincontent {
   /* TODO: fix width */
-  width: 67%;
+  width: 650px;
   background: #ffffff;
   border-color: #dddddd;
   line-height: 1.8em;
@@ -157,7 +159,7 @@ a:hover {
 }
 
 .page_header_content {
-  width: 960px;
+  width: 94%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -180,7 +182,7 @@ a:hover {
 
 .sidebar {
   background: #ffffff;
-  width: 27%px;
+  width: 270px;
   float: right;
   border-color: #dddddd;
   /* padding: 25px; */
@@ -193,7 +195,7 @@ a:hover {
   /* Positioning */
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: auto;
+  margin-bottom: auto; 
   /* TODO: may need to fix these */
   min-height: 100%;
 
@@ -204,23 +206,37 @@ a:hover {
 /* TODO: add media query for screen < 640px */
 
 @media screen and (max-width: 768px) {
-  body {
-    background-color: #333;
-  }
 
-.maincontent,
-.sidebar {
+footer {
   width: 100%;
 }
 
+h1 {
+  margin-left: 2%;
+}
+
+.connect_header {
+  text-align: left;
+}
+
+  .maincontent,
   .sidebar {
-    margin-top: 40px;
+    width: 75%;
+    /* margin-left: 2%;
+    margin-right: 2%; */
+    margin: 2%
+  }
+
+  .sidebar {
+    /* margin-top: 1%; */
+    float: left;
   }
 
   .wrapper {
     /* Box-model */
     width: 100%;
-    padding: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
   }
 
 }
