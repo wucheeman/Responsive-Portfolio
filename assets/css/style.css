@@ -143,6 +143,7 @@ a:hover {
   /* Positioning */
   float: left;
   margin-bottom: 5%;
+  padding: 25px;
 }
 
 /* TODO: Delete when work is complete
@@ -185,7 +186,6 @@ a:hover {
   width: 270px;
   float: right;
   border-color: #dddddd;
-  /* padding: 25px; */
 }
 
 .wrapper {
@@ -202,8 +202,6 @@ a:hover {
   /* padding-left: 5%;
   padding-right: 5%; */
 }
-
-/* TODO: add media query for screen < 640px */
 
 @media screen and (max-width: 768px) {
 
@@ -240,3 +238,27 @@ h1 {
   }
 
 }
+
+@media screen and (max-width: 640px) {
+
+
+  h1 {
+    width: 100%;
+    margin-left: 0%
+  }
+
+  /* TODO: update links in header for contact.html and portfolio.html to apply this style*/
+  .hdr_link {
+    padding-left: 18%
+  }
+
+  .nav {
+    clear: left;
+    text-align: left;
+    padding: 3%;
+  }
+
+  .page_header_content {
+    width: 100%;
+  }
+} /* End of media query - 640 px*/
