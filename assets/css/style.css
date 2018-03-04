@@ -135,6 +135,10 @@ a:hover {
   position: relative;
 }
 
+.input_text {
+  width: 100%
+}
+
 .maincontent {
   /* TODO: fix width */
   width: 650px;
@@ -171,9 +175,9 @@ a:hover {
   display: block;
 }
 
-.push {
+/* .push {
   height: 50px;
-}
+} */
 
 .real_me {
   width: 200px;
@@ -219,9 +223,17 @@ section {
   width: 94%;
 }
 
+/* textarea {
+  width: 100%;
+} */
+
 .connect_header {
   text-align: left;
 }
+
+/* .input_text {
+  width: 100%;
+} */
 
   .maincontent,
   .sidebar {
@@ -234,6 +246,7 @@ section {
   .sidebar {
     /* margin-top: 1%; */
     float: left;
+    padding-bottom: 2%;
   }
 
   .wrapper {
@@ -242,6 +255,18 @@ section {
     /* padding-left: 20px;
     padding-right: 20px; */
   }
+
+    /* TODO: update logo images in portfolio.html to apply this style* */
+    .logo {
+      width: 8%;
+      height: auto;
+    }
+  
+    /* TODO: update logo links in portfolio.html to apply this style* */
+    .logo_link {
+      padding-left: 2%;
+    }
+
 
 }
 
@@ -264,11 +289,15 @@ section {
     font-size: 90%;
   }
 
+  /* textarea {
+    width: 100%;
+  } */
+
   .connect_header {
     font-size: 3.5vw;
   }
 
-  /* TODO: update links in header for contact.html and portfolio.html to apply this style*/
+  /* TODO: update links in header for portfolio.html to apply this style*/
   .hdr_link {
     padding-left: 18%
   }
@@ -277,16 +306,9 @@ section {
     display: none;
   }
 
-    /* TODO: update logo images in contact.html and portfolio.html to apply this style* */
-  .logo {
-    width: 8%;
-    height: auto;
-  }
-
-  /* TODO: update logo links in contact.html and portfolio.html to apply this style* */
-  .logo_link {
-    padding-left: 2%;
-  }
+  /* .input_text {
+    width: 100%;
+  } */
 
   .maincontent,
   .sidebar {
@@ -297,9 +319,9 @@ section {
     margin: 2%
   }
 
-  .sidebar {
+  /* .sidebar {
     padding-bottom: 2%;
-  }
+  } */
 
   .nav {
     clear: left;
