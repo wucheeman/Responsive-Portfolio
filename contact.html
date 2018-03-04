@@ -14,41 +14,41 @@
       <div class="page_header_content">
         <h1>Mark Hainline</h1>
         <div class="nav">
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
+          <a href="index.html" class="hdr_link">About</a>
+          <a href="portfolio.html" class="hdr_link">Portfolio</a>
+          <a href="contact.html" class="hdr_link">Contact</a>
         </div>
       </div>
     </header>
-    <div class="main_background">
-      <section>
+    <!-- <div class="main_background"> -->
+    <section>
+        <div class="maincontent">
+          <h2>Contact</h2>
+          <hr>
+          <form action="mailto:wucheeman@example.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name" size="88" placeholder="John Smith"><br>
+            Email:<br>
+            <input type="text" name="email" size="88" placeholder="jsmith@yourmail.com"><br>
+            Comment:<br>
+            <textarea name="comments" rows="10" cols="80"></textarea><br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div> <!-- .maincontent -->
         <div class="sidebar">
           <h2 class="connect_header">Connect with Me</h2>
           <hr>
-          <a href="https://github.com/">
-            <img src="assets/images/github_logo.png" alt="github logo" width="70"/></a>
-          <a href="https://www.linkedin.com/">
-            <img src="assets/images/linked_in_logo.png" alt="linked in logo" width="70"/></a>
-          <a href="https://stackoverflow.com/">
-                <img src="assets/images/stackoverflow.png" alt="stack overflow logo" width="70"/></a>
-        </div>
-          <div class="maincontent">
-            <h2>Contact</h2>
-            <hr>
-            <form action="mailto:wucheeman@example.com" method="post" enctype="text/plain">
-              Name:<br>
-              <input type="text" name="name" size="88" placeholder="John Smith"><br>
-              Email:<br>
-              <input type="text" name="email" size="88" placeholder="jsmith@yourmail.com"><br>
-              Comment:<br>
-              <textarea name="comments" rows="10" cols="80"></textarea><br><br>
-              <input type="submit" value="Submit">
-            </form>
-          </div>
-      </section>
-    </div>
+          <a href="https://github.com/" class="logo_link">
+            <img src="assets/images/github_logo.png" alt="github logo" width="70" class="logo" /></a>
+          <a href="https://www.linkedin.com/" class="logo_link">
+            <img src="assets/images/linked_in_logo.png" alt="linked in logo" width="70" class="logo" /></a>
+          <a href="https://stackoverflow.com/" class="logo_link">
+                <img src="assets/images/stackoverflow.png" alt="stack overflow logo" width="70" class="logo" /></a>
+        </div> <!-- .sidebard -->
+    </section>
+    <!-- </div> .mainbackground -->
     <div class="push"></div>
-  </div>
-  <footer>@copywrite 2018 Mark Hainline</footer>
+    <footer>@copywrite 2018 Mark Hainline</footer>
+  </div> <!-- .wrapper -->
 </body>
 </html>
