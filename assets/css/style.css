@@ -173,6 +173,7 @@ a:hover {
 .push {
   height: 50px;
 }
+
 .real_me {
   width: 200px;
   height: 180px;
@@ -241,15 +242,58 @@ h1 {
 
 @media screen and (max-width: 640px) {
 
+  footer {
+    line-height: 7;
+  }
 
   h1 {
     width: 100%;
     margin-left: 0%
   }
 
+  h2 {
+    font-size: 5.5vw;
+  }
+
+  p {
+    font-size: 90%;
+  }
+
+  .connect_header {
+    font-size: 3.5vw;
+  }
+
   /* TODO: update links in header for contact.html and portfolio.html to apply this style*/
   .hdr_link {
     padding-left: 18%
+  }
+
+  .hide_when_small{
+    display: none;
+  }
+
+    /* TODO: update logo images in contact.html and portfolio.html to apply this style* */
+  .logo {
+    width: 8%;
+    height: auto;
+  }
+
+  /* TODO: update logo links in contact.html and portfolio.html to apply this style* */
+  .logo_link {
+    padding-left: 2%;
+  }
+
+  .maincontent,
+  .sidebar {
+    width: 62%;
+    float: none;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 2%
+  }
+
+  .sidebar {
+    padding-bottom: 2%;
   }
 
   .nav {
@@ -260,5 +304,13 @@ h1 {
 
   .page_header_content {
     width: 100%;
+  }
+
+  .real_me {
+    float: none;
+    width: 90%;
+    height: auto;
+    margin-left: 4%;
+    margin-right: 3%;
   }
 } /* End of media query - 640 px*/
