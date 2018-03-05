@@ -212,6 +212,10 @@ a:hover {
 
 @media screen and (max-width: 980px) {
 
+  p {
+    font-size: 85%;
+    color: #616161;
+  }
   section {
     width: 90%;
   }
@@ -219,6 +223,10 @@ a:hover {
   .grid {
     padding-left: 0%;
     padding-right: 0%;
+  }
+
+  .maincontent {
+    width: 60%;
   }
 
   .page_header_content {
@@ -233,6 +241,18 @@ a:hover {
     width: 90%;
   }
 
+  .real_me {
+    float: none;
+    width: 90%;
+    height: auto;
+    margin-left: 4%;
+    margin-right: 3%;
+  }
+
+  .sidebar {
+    width: 35%;
+  }
+
   .wrapper {
     width: 90%;
   }
@@ -241,13 +261,17 @@ a:hover {
 
 @media screen and (max-width: 768px) {
 
-
   footer {
     width: 100%;
   }
 
   h1 {
     margin-left: 6%;
+  }
+
+  p {
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   section {
@@ -267,35 +291,43 @@ a:hover {
       padding: 0%;
     }
 
-    .nav {
-      padding-left: 0%;
-      padding-right: 0%;
-      margin-left: 8%;
-      margin-right: 5%;
-    }
+  .nav {
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 8%;
+    margin-right: 5%;
+  }
 
-    .sidebar {
-      /* margin-top: 1%; */
-      float: left;
-      padding-bottom: 2%;
-      margin-bottom: 4%;
-    }
+  .real_me {
+    width: 50%;
+    height: auto;
+    float: left;
+    /* margin-right: 20px; */
+    margin: 2%;
+  }
 
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      /* padding-left: 20px;
-      padding-right: 20px; */
-    }
+  .sidebar {
+    /* margin-top: 1%; */
+    float: left;
+    padding-bottom: 2%;
+    margin-bottom: 4%;
+  }
 
-    .logo {
-      width: 8%;
-      height: auto;
-    }
-  
-    .logo_link {
-      padding-left: 2%;
-    }
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+  }
+
+  .logo {
+    width: 8%;
+    height: auto;
+  }
+
+  .logo_link {
+    padding-left: 2%;
+  }
 
 } /* End of media query - 768 px*/
 
