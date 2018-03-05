@@ -237,77 +237,67 @@ a:hover {
     width: 90%;
   }
 
-}
-
+} /* End of media query - 980 px*/
 
 @media screen and (max-width: 768px) {
 
-footer {
-  width: 100%;
-}
 
-h1 {
-  margin-left: 6%;
-}
-
-section {
-  width: 94%;
-}
-
-/* textarea {
-  width: 100%;
-} */
-
-.connect_header {
-  text-align: left;
-}
-
-/* .hdr_link {
-  padding-left: 0%;
-} */
-
-  .maincontent,
-  .sidebar {
-    width: 84%;
-    margin-left: 8%;
-    /* margin-right: 2%; */
-    /* margin: 2%; */
-    padding: 0%;
-  }
-
-  .nav {
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-left: 8%;
-    margin-right: 5%;
-  }
-
-  .sidebar {
-    /* margin-top: 1%; */
-    float: left;
-    padding-bottom: 2%;
-    margin-bottom: 4%;
-  }
-
-  .wrapper {
-    /* Box-model */
+  footer {
     width: 100%;
-    /* padding-left: 20px;
-    padding-right: 20px; */
   }
 
-    /* TODO: update logo images in portfolio.html to apply this style* */
+  h1 {
+    margin-left: 6%;
+  }
+
+  section {
+    width: 94%;
+  }
+
+  .connect_header {
+    text-align: left;
+  }
+
+    .maincontent,
+    .sidebar {
+      width: 84%;
+      margin-left: 8%;
+      /* margin-right: 2%; */
+      /* margin: 2%; */
+      padding: 0%;
+    }
+
+    .nav {
+      padding-left: 0%;
+      padding-right: 0%;
+      margin-left: 8%;
+      margin-right: 5%;
+    }
+
+    .sidebar {
+      /* margin-top: 1%; */
+      float: left;
+      padding-bottom: 2%;
+      margin-bottom: 4%;
+    }
+
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      /* padding-left: 20px;
+      padding-right: 20px; */
+    }
+
     .logo {
       width: 8%;
       height: auto;
     }
   
-    /* TODO: update logo links in portfolio.html to apply this style* */
     .logo_link {
       padding-left: 2%;
     }
 
-}
+} /* End of media query - 768 px*/
 
 @media screen and (max-width: 640px) {
 
@@ -396,7 +386,8 @@ section {
     /* height: auto; */
   }
 
-  .real_me {
+  .real_me,
+  .pic {
     float: none;
     width: 90%;
     height: auto;
