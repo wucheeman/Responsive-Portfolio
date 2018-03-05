@@ -1,0 +1,32 @@
+RESPONSIVE PORTFOLIO TEST CASES
+
+Index
+=====
+[x] No remaining todos in file, except production text
+[x] Nothing breaks when the page is resized horizontally at 3 breakpoints or vertically
+[x] Page looks very similar to homework assignment
+[x] Links are live to other pages and to Github, LInked In,and Stack Overflow
+[x] HTML passes validation
+
+Contact
+=======
+[x] No remaining todos in file
+[x] Contact sends email with info entered in form
+[x] Nothing breaks when the page is resized horizontally at 3 breakpoints or vertically
+[x] Footer is sticky on Contact page
+[x] Page looks very similar to homework assignment
+[x] Links are live to other pages and to Github, LInked In,and Stack Overflow
+[x] HTML passes validation
+
+Portfolio
+=========
+[x] No remaining todos in file
+[x] Nothing breaks when the page is resized horizontally at 3 breakpoints or vertically
+[x] Page looks very similar to homework assignment
+[x] Links are live to other pages and to Github, LInked In,and Stack Overflow
+[x] HTML passes validation
+
+Styles
+======
+[x] No remaining todos in file
+[x] CSS passes validation
